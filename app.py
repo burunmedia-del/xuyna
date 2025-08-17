@@ -70,7 +70,6 @@ WEBHOOK_SECRET = "my-secret"
 
 OTHER_WEBHOOK_URL = f'{BASE_WEBHOOK_URL}{WEBHOOK_PATH}'
 
-
 async def on_startup(bot: Bot, scheduler: AsyncIOScheduler) -> None:
     scheduler.start()
     await bot.delete_webhook()
