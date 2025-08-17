@@ -47,7 +47,7 @@ class Form(StatesGroup):
 def main_menu():
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="📢 Каналы", callback_data="channels")],
-        [InlineKeyboardButton(text="🔗 Замена ссылок", callback_data="replace_links")]
+        [InlineKeyboardButton(text="🐷 Замена ссылок", callback_data="replace_links")]
     ])
 
 # Кнопка назад

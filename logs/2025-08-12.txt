@@ -1,0 +1,12 @@
+{"ts": "2025-08-12T15:28:27", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002777075874, "link": "https://t.me/+BlB_tuUK...", "link_name": "ea3b9fcb", "link_requests": 1, "rc": 1}
+{"ts": "2025-08-12T15:28:27", "event": "non_main_flow_state", "chat_id": -1002777075874, "chain_id": 37, "current_link_id": 253, "current_link_requests": 0, "update_link_requests": 1, "threshold_rc": 1, "auto": true, "next_link_id": 257}
+{"ts": "2025-08-12T15:28:27", "event": "link_requests_updated", "link_id": 253, "new_requests": 1}
+{"ts": "2025-08-12T15:28:27", "event": "privet_changed_non_main", "element_id": 47, "next_link_id": 257}
+{"ts": "2025-08-12T15:28:27", "event": "send_next_privet_non_main", "user_id": 6617138756, "chat_id": -1002777075874, "next_link_id": 257}
+{"ts": "2025-08-12T15:34:33", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002822019904, "link": "https://t.me/+qaQ5o7qB...", "link_name": null, "link_requests": 1, "rc": 1}
+{"ts": "2025-08-12T15:34:33", "event": "main_channel_state", "chat_id": -1002822019904, "chain_id": 38, "last_change_requests": 0, "requests_now": 1, "threshold_rc": 1, "auto": true, "next_link_id": 259}
+{"ts": "2025-08-12T15:34:33", "event": "rc_exceeded_main", "delta": 1}
+{"ts": "2025-08-12T15:34:34", "event": "privet_changed_main", "element_id": 49, "new_last_change_requests": 1, "next_link_id": 259}
+{"ts": "2025-08-12T15:34:34", "event": "send_next_privet_main", "user_id": 6617138756, "chat_id": -1002822019904, "next_link_id": 259}
+{"ts": "2025-08-12T15:34:44", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002777075874, "link": "https://t.me/+RaeRilmH...", "link_name": "26eda037", "link_requests": 1, "rc": 1}
+{"ts": "2025-08-12T15:34:44", "event": "send_last_privet", "user_id": 6617138756, "chat_id": -1002777075874, "chain_id": 38}

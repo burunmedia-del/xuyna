@@ -1,0 +1,19 @@
+API_ID = 23023283
+API_HASH = bd704553852c556854f47b695b001379
+BOT_TOKEN = 7566501035:AAHSqFbQTEMvStf-IofwhqA75FRdFRzbkN8
+BOT_ID = 8038219235
+YOUR_ACCOUNT_USERNAME = lotok_burunova
+YOUR_ACCOUNT_ID = 8175287961
+MYSQL_host = localhost
+MYSQL_user = root
+MYSQL_password = Smert-V-Nishite1
+MYSQL_database = svinontraffcrm
+owners = 1995503720,1616285214,1722029560,5303987675
+replace_links_chat = -1002824792390
+BASE_WEBHOOK_URL = https://fulltraff.sbs
+WEB_SERVER_PORT = 8000
+WEB_SERVER_HOST = 0.0.0.0
+WEBHOOK_PATH = /svinotraff
+OTHER_BOT_PATH = /svinotraff/bot/{bot_token}
+PATH_WITHOUT_TOKEN = '/svinotraff/bot/'
+

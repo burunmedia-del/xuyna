@@ -107,3 +107,129 @@ async def create_report_excel(name: str, rows: list[list]) -> str:
     wb.save(filepath)
     return filepath
 
+
+
+import os
+import pandas as pd
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.utils.dataframe import dataframe_to_rows
+from openpyxl.worksheet.table import Table, TableStyleInfo
+from openpyxl.chart import BarChart, Reference
+
+
+import os
+import pandas as pd
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.utils.dataframe import dataframe_to_rows
+from openpyxl.worksheet.table import Table, TableStyleInfo
+
+
+def export_conversion_to_excel(
+        privets: list,
+        links:   list,
+        elements: list,
+        out_path: str = "files/стата_по_цепи.xlsx"
+):
+    """
+    Формирует Excel‑отчёт вида
+
+        Звено №1
+            Приветка‑А   | Заявки | Конверсия %
+            Приветка‑Б   | ...
+        Звено №2
+            ...
+
+    • конверсия считается от previuos_pair (если предыдущие заявки > 0);
+    • если заявок нет → «нет заявок»;
+    • если у предыдущей пары заявок 0 → «конверсия = 0».
+
+    Parameters
+    ----------
+    privets  – [{'id','text',…}]
+    links    – [{'element1_id','privet_id','requests','previuos_pair', …}]
+    elements – [{'id','channel_name', …}]
+    """
+    priv_map = {p["id"]: p["text"] for p in privets}
+    elem_map = {e["id"]: e["channel_name"] for e in elements}
+    link_map = {l["id"]: l for l in links}
+
+    summary = {}
+    for link in links:
+        zveno = elem_map.get(link["element1_id"], "—")
+
+        if zveno not in summary:
+            summary[zveno] = {"приветка": set(), "залито": 0, "перелито": 0}
+
+        priv = priv_map.get(link["privet_id"])
+        if priv:
+            summary[zveno]["приветка"].add(priv)
+
+        summary[zveno]["залито"] += link["requests"]
+
+        prev = link_map.get(link["previuos_pair"])
+        if prev:
+            summary[zveno]["перелито"] += prev["requests"]
+
+    result = {
+        "приветка": {},
+        "залито": {},
+        "перелито": {},
+        "конверсия": {}
+    }
+
+    for zveno, data in summary.items():
+        priv_count = len(data["приветка"])
+        zalito = data["залито"]
+        perelito = data["перелито"]
+        konv = round(perelito / zalito, 4) if zalito else "#ДЕЛ/0!"
+
+        result["приветка"][zveno] = priv_count
+        result["залито"][zveno] = zalito
+        result["перелито"][zveno] = perelito
+        result["конверсия"][zveno] = konv
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Конверсии"
+
+    zvenya = list(result["приветка"].keys())
+    ws.cell(row=16, column=1, value="ЗВЕНО")
+    for i, z in enumerate(zvenya):
+        ws.cell(row=16, column=i + 2, value=z)
+
+    ws.cell(row=17, column=1, value="АКТУАЛЬНАЯ")
+
+    labels = ["приветка", "залито", "перелито", "конверсия"]
+    for i, label in enumerate(labels):
+        ws.cell(row=18 + i, column=1, value=label)
+        for j, z in enumerate(zvenya):
+            ws.cell(row=18 + i, column=2 + j, value=result[label][z])
+
+    ws.cell(row=22, column=1, value="АРХИВНЫЕ")
+    for i, label in enumerate(labels):
+        ws.cell(row=23 + i, column=1, value=label)
+
+    bold = Font(bold=True)
+    center = Alignment(horizontal="center")
+    for row in ws.iter_rows(min_row=16, max_row=27, min_col=1, max_col=1 + len(zvenya)):
+        for cell in row:
+            cell.alignment = center
+            if cell.row in [16, 17, 22] or cell.column == 1:
+                cell.font = bold
+
+    for col in ws.columns:
+        max_length = max(len(str(cell.value)) if cell.value else 0 for cell in col)
+        col_letter = get_column_letter(col[0].column)
+        ws.column_dimensions[col_letter].width = max_length + 2
+
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    wb.save(out_path)
+    return os.path.abspath(out_path)
+
+
+
+# ==== пример вызова ====
+# path = export_zveno_privets(privets, links, elements)
+# print("Excel сохранён:", path)

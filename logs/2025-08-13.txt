@@ -1,0 +1,39 @@
+{"ts": "2025-08-13T10:44:03", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 16, "new_privet_id": 22, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:44:08", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 19, "new_privet_id": 24, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:46:25", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 19, "new_privet_id": 22, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:46:29", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 18, "new_privet_id": 22, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:49:05", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 16, "new_privet_id": 23, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:49:05", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 16, "new_privet_id": 23, "new_link_url": "https://t.me/+m9IHTpZI-dhlYTdi"}
+{"ts": "2025-08-13T10:49:09", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 15, "new_privet_id": 23, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:52:24", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 19, "new_privet_id": 16, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:52:25", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 19, "new_privet_id": 16, "new_link_url": "https://t.me/+Iz4C8IKo0As5OTQy"}
+{"ts": "2025-08-13T10:52:33", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 18, "new_privet_id": 24, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:56:38", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 23, "new_privet_id": 15, "reason": "reached_rc"}
+{"ts": "2025-08-13T10:56:38", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 23, "new_privet_id": 15, "new_link_url": "https://t.me/+OV6w_ElpDFEwN2Ey"}
+{"ts": "2025-08-13T10:56:41", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 16, "new_privet_id": 19, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:04:08", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 23, "new_privet_id": 15, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:08:24", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 24, "new_privet_id": 17, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:10:36", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:10:36", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "new_link_url": "https://t.me/+WkAfbZYx_XQwYWRi"}
+{"ts": "2025-08-13T11:26:32", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 18, "new_privet_id": 22, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:26:40", "event": "change_privet", "chain_id": 38, "element1_position": 2, "element2_position": 3, "old_privet_id": 18, "new_privet_id": 16, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:26:40", "event": "switch_privet_error", "chain_id": 38, "element1_position": 2, "element2_position": 3, "error": "Current link not found"}
+{"ts": "2025-08-13T11:28:04", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 23, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:28:04", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 23, "new_link_url": "https://t.me/+-gSxt-i-STI0Yjcy"}
+{"ts": "2025-08-13T11:29:10", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 24, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:29:11", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 24, "new_link_url": "https://t.me/+atBR9knvMnY5Yzky"}
+{"ts": "2025-08-13T11:29:43", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:29:44", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "new_link_url": "https://t.me/+pWSV5qChY04zYzky"}
+{"ts": "2025-08-13T11:30:08", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 24, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:30:08", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 24, "new_link_url": "https://t.me/+ebaru8I7KTthMTJi"}
+{"ts": "2025-08-13T11:32:22", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:32:22", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 23, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:32:22", "event": "switch_privet_error", "chain_id": 38, "element1_position": 1, "element2_position": 2, "error": "Current link not found"}
+{"ts": "2025-08-13T11:32:22", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 18, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:32:22", "event": "switch_privet_error", "chain_id": 38, "element1_position": 1, "element2_position": 2, "error": "Current link not found"}
+{"ts": "2025-08-13T11:32:22", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:32:22", "event": "switch_privet_error", "chain_id": 38, "element1_position": 1, "element2_position": 2, "error": "Current link not found"}
+{"ts": "2025-08-13T11:32:22", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 23, "reason": "reached_rc"}
+{"ts": "2025-08-13T11:32:22", "event": "switch_privet_error", "chain_id": 38, "element1_position": 1, "element2_position": 2, "error": "Current link not found"}
+{"ts": "2025-08-13T11:32:22", "event": "switch_privet_success", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 19, "new_link_url": "https://t.me/+cxCrIt13NOdkYjQy"}
+{"ts": "2025-08-13T11:59:38", "event": "change_privet", "chain_id": 38, "element1_position": 1, "element2_position": 2, "old_privet_id": 15, "new_privet_id": 17, "reason": "reached_rc"}

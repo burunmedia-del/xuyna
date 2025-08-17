@@ -1,0 +1,11 @@
+{"ts": "2025-08-17T16:10:09", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002777075874, "link": "https://t.me/+RZHnYfm_...", "link_name": "5810494b", "link_requests": 1, "rc": 1}
+{"ts": "2025-08-17T16:10:09", "event": "non_main_flow_state", "chat_id": -1002777075874, "chain_id": 41, "current_link_id": 381, "current_link_requests": 0, "update_link_requests": 1, "threshold_rc": 1, "auto": true, "next_link_id": 382}
+{"ts": "2025-08-17T16:10:09", "event": "link_requests_updated", "link_id": 381, "new_requests": 1}
+{"ts": "2025-08-17T16:10:09", "event": "error", "error": "Database.add_crm_link() got an unexpected keyword argument 'last_privet_requests'", "chat_id": -1002777075874}
+{"ts": "2025-08-17T16:16:23", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002777075874, "link": "https://t.me/+RZHnYfm_...", "link_name": "5810494b", "link_requests": 1, "rc": 1}
+{"ts": "2025-08-17T16:16:23", "event": "non_main_flow_state", "chat_id": -1002777075874, "chain_id": 41, "current_link_id": 381, "current_link_requests": 1, "update_link_requests": 1, "threshold_rc": 1, "auto": true, "next_link_id": 383}
+{"ts": "2025-08-17T16:16:23", "event": "send_next_privet_non_main", "user_id": 6617138756, "chat_id": -1002777075874, "next_link_id": 383}
+{"ts": "2025-08-17T18:55:50", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002777075874, "link": "https://t.me/+RZHnYfm_...", "link_name": "5810494b", "link_requests": 1, "rc": 1}
+{"ts": "2025-08-17T18:55:50", "event": "send_last_privet", "user_id": 6617138756, "chat_id": -1002777075874, "chain_id": 42}
+{"ts": "2025-08-17T18:56:56", "event": "join_request_received", "user_id": 6617138756, "chat_id": -1002777075874, "link": "https://t.me/+RZHnYfm_...", "link_name": "5810494b", "link_requests": 1, "rc": 1}
+{"ts": "2025-08-17T18:56:56", "event": "send_last_privet", "user_id": 6617138756, "chat_id": -1002777075874, "chain_id": 42}

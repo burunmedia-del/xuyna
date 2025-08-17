@@ -13,7 +13,8 @@ from data.database import Database
 from keyboards.panel import *
 from states import *
 from telethon_main import is_client_admin, join_private_channel_by_invite
-from utils.channels_u import create_link_aiogram_bot
+from utils.channels_u import create_link_aiogram_bot, get_requests_count
+
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
@@ -24,8 +25,9 @@ db = Database(MYSQL_host, MYSQL_user, MYSQL_password, MYSQL_database)
 @router.message(Command("start"))
 async def admin_start(message: Message, state: FSMContext):
     await state.set_state(None)
-    await message.answer_sticker("CAACAgIAAxkBAAEBTv1oODIGnfYN0ULJoukfT1XHkdkwgQACDjYAAqrzwEnqZj3GIe601zYE", reply_markup=admin_key())
-
+    await message.answer_sticker("CAACAgIAAxkBAAEBaLVobVAXkJI4alnr97qRfJCiKiIUTAACz4QAAjwAAWhLUoVMPntP96g2BA",
+                                )
+    await message.answer(f'Автоматизированный перелив и CRM-бот ⭐\n\n<b>Актуальный статус:</b> \n<b>RC:</b> {db.get_config_value("rc")} заявок\n<b>Автоуравнивание (ХУЙНЯ НЕ РАБОТАЕТ ):</b> каждые {db.get_config_value("organize_time")} минут', parse_mode="HTML", reply_markup=admin_key())
 
 
 @router.callback_query(lambda x: x.data == 'MAIN_MENU')

@@ -1,0 +1,60 @@
+2025-08-17 16:10:09.409 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Запуск change_privet | link_summary={'id': 382, 'name': 'f5fbc697', 'chain_id': 41, 'element1_position': 2, 'element2_position': 3, 'privet_id': 16}
+{"ts": "2025-08-17 16:10:09.409", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Запуск change_privet", "link_summary": {"id": 382, "name": "f5fbc697", "chain_id": 41, "element1_position": 2, "element2_position": 3, "privet_id": 16}}
+2025-08-17 16:10:09.424 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Получение chain' выполнен | duration_ms=14.97
+{"ts": "2025-08-17 16:10:09.424", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Получение chain' выполнен", "duration_ms": 14.97}
+2025-08-17 16:10:09.426 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Получена chain | chain_id=41 pull_id=4
+{"ts": "2025-08-17 16:10:09.426", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Получена chain", "chain_id": 41, "pull_id": 4}
+2025-08-17 16:10:09.427 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Получение element (element2)' выполнен | duration_ms=0.98
+{"ts": "2025-08-17 16:10:09.427", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Получение element (element2)' выполнен", "duration_ms": 0.98}
+2025-08-17 16:10:09.428 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Получен element | element_id=59 channel_id=-1002888289683
+{"ts": "2025-08-17 16:10:09.428", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Получен element", "element_id": 59, "channel_id": -1002888289683}
+2025-08-17 16:10:09.431 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Пометка старой ссылки как неактуальной' выполнен | duration_ms=3.66
+{"ts": "2025-08-17 16:10:09.431", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Пометка старой ссылки как неактуальной' выполнен", "duration_ms": 3.66}
+2025-08-17 16:10:09.433 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Старая ссылка помечена неактуальной | link_id=382
+{"ts": "2025-08-17 16:10:09.433", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Старая ссылка помечена неактуальной", "link_id": 382}
+2025-08-17 16:10:09.656 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Создание новой ссылки в канале' выполнен | duration_ms=222.74
+{"ts": "2025-08-17 16:10:09.656", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Создание новой ссылки в канале' выполнен", "duration_ms": 222.74}
+2025-08-17 16:10:09.657 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Создана новая ссылка для текущего звена | new_link='https://t.me/+rTOU71KA0pg0ZWUy'
+{"ts": "2025-08-17 16:10:09.657", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Создана новая ссылка для текущего звена", "new_link": "https://t.me/+rTOU71KA0pg0ZWUy"}
+2025-08-17 16:10:09.659 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Получение prev_pair' выполнен | duration_ms=2.06
+{"ts": "2025-08-17 16:10:09.659", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Получение prev_pair' выполнен", "duration_ms": 2.06}
+2025-08-17 16:10:09.660 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Определён prev_id | prev_id=381
+{"ts": "2025-08-17 16:10:09.660", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Определён prev_id", "prev_id": 381}
+2025-08-17 16:10:09.663 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Добавление новой CRM-ссылки в БД' выполнен | duration_ms=3.52
+{"ts": "2025-08-17 16:10:09.663", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Добавление новой CRM-ссылки в БД' выполнен", "duration_ms": 3.52}
+2025-08-17 16:10:09.664 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Новая CRM-ссылка добавлена для текущего звена | chain_id=41 privet_id=16 prev_id=381
+{"ts": "2025-08-17 16:10:09.664", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Новая CRM-ссылка добавлена для текущего звена", "chain_id": 41, "privet_id": 16, "prev_id": 381}
+2025-08-17 16:10:09.666 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Получение element для предыдущего звена' выполнен | duration_ms=0.69
+{"ts": "2025-08-17 16:10:09.666", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Получение element для предыдущего звена' выполнен", "duration_ms": 0.69}
+2025-08-17 16:10:09.666 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Получен element для предыдущего звена | element_id=58 channel_id=-1002777075874
+{"ts": "2025-08-17 16:10:09.666", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Получен element для предыдущего звена", "element_id": 58, "channel_id": -1002777075874}
+2025-08-17 16:10:09.667 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Сбор used_privets для предыдущего звена' выполнен | duration_ms=0.76
+{"ts": "2025-08-17 16:10:09.667", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Сбор used_privets для предыдущего звена' выполнен", "duration_ms": 0.76}
+2025-08-17 16:10:09.668 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Собраны used_privets для предыдущего звена | count=1 sample=[15]
+{"ts": "2025-08-17 16:10:09.668", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Собраны used_privets для предыдущего звена", "count": 1, "sample": [15]}
+2025-08-17 16:10:09.670 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Сбор not_available для предыдущего звена' выполнен | duration_ms=0.83
+{"ts": "2025-08-17 16:10:09.670", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Сбор not_available для предыдущего звена' выполнен", "duration_ms": 0.83}
+2025-08-17 16:10:09.670 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Собраны not_available для предыдущего звена | count=2 sample=[15, 16]
+{"ts": "2025-08-17 16:10:09.670", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Собраны not_available для предыдущего звена", "count": 2, "sample": [15, 16]}
+2025-08-17 16:10:09.670 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Собран cant_use для предыдущего звена | count=2
+{"ts": "2025-08-17 16:10:09.670", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Собран cant_use для предыдущего звена", "count": 2}
+2025-08-17 16:10:09.671 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Получение all_privets из пула' выполнен | duration_ms=0.71
+{"ts": "2025-08-17 16:10:09.671", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Получение all_privets из пула' выполнен", "duration_ms": 0.71}
+2025-08-17 16:10:09.672 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Получены all_privets для предыдущего звена | count=3 sample=[15, 16, 17]
+{"ts": "2025-08-17 16:10:09.672", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Получены all_privets для предыдущего звена", "count": 3, "sample": [15, 16, 17]}
+2025-08-17 16:10:09.672 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Посчитан can_use для предыдущего звена | count=1 sample=[17]
+{"ts": "2025-08-17 16:10:09.672", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Посчитан can_use для предыдущего звена", "count": 1, "sample": [17]}
+2025-08-17 16:10:09.672 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Выбрана свободная приветка для предыдущего звена | new_privet=17
+{"ts": "2025-08-17 16:10:09.672", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Выбрана свободная приветка для предыдущего звена", "new_privet": 17}
+2025-08-17 16:10:09.752 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Создание новой ссылки для предыдущего звена' выполнен | duration_ms=79.29
+{"ts": "2025-08-17 16:10:09.752", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Создание новой ссылки для предыдущего звена' выполнен", "duration_ms": 79.29}
+2025-08-17 16:10:09.753 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Создана новая ссылка для предыдущего звена | new_link='https://t.me/+WnQyWSejs1Y5MDQy'
+{"ts": "2025-08-17 16:10:09.753", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Создана новая ссылка для предыдущего звена", "new_link": "https://t.me/+WnQyWSejs1Y5MDQy"}
+2025-08-17 16:10:09.758 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Пометка старой ссылки как неактуальной (предыдущее звено)' выполнен | duration_ms=4.09
+{"ts": "2025-08-17 16:10:09.758", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Пометка старой ссылки как неактуальной (предыдущее звено)' выполнен", "duration_ms": 4.09}
+2025-08-17 16:10:09.758 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Старая ссылка помечена неактуальной (предыдущее звено) | link_id=381
+{"ts": "2025-08-17 16:10:09.758", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Старая ссылка помечена неактуальной (предыдущее звено)", "link_id": 381}
+2025-08-17 16:10:09.758 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | Шаг 'Добавление новой CRM-ссылки для предыдущего звена' завершился ОШИБКОЙ | duration_ms=0.02 error="Database.add_crm_link() got an unexpected keyword argument 'last_privet_requests'"
+{"ts": "2025-08-17 16:10:09.758", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "Шаг 'Добавление новой CRM-ссылки для предыдущего звена' завершился ОШИБКОЙ", "duration_ms": 0.02, "error": "Database.add_crm_link() got an unexpected keyword argument 'last_privet_requests'"}
+2025-08-17 16:10:09.760 | trace=719756d8-4f88-429c-bfe6-0f6abc198b7f | ОШИБКА в change_privet | error="Database.add_crm_link() got an unexpected keyword argument 'last_privet_requests'" traceback='Traceback (most recent call last):\n  File "X:\\PROJECTS\\svinotraff+crm\\utils\\crm_auto.py", line 320, in change_privet\n    db.add_crm_link(\nTypeError: Database.add_crm_link() got an unexpected keyword argument \'last_privet_requests\'\n'
+{"ts": "2025-08-17 16:10:09.760", "trace": "719756d8-4f88-429c-bfe6-0f6abc198b7f", "msg": "ОШИБКА в change_privet", "error": "Database.add_crm_link() got an unexpected keyword argument 'last_privet_requests'", "traceback": "Traceback (most recent call last):\n  File \"X:\\PROJECTS\\svinotraff+crm\\utils\\crm_auto.py\", line 320, in change_privet\n    db.add_crm_link(\nTypeError: Database.add_crm_link() got an unexpected keyword argument 'last_privet_requests'\n"}

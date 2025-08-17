@@ -16,3 +16,13 @@ MYSQL_host = os.getenv("MYSQL_host")
 MYSQL_user = os.getenv("MYSQL_user")
 MYSQL_password = os.getenv("MYSQL_password")
 MYSQL_database = os.getenv("MYSQL_database")
+
+owners = eval(os.getenv('owners'))
+
+BASE_WEBHOOK_URL = os.getenv('BASE_WEBHOOK_URL')
+WEB_SERVER_HOST = os.getenv('WEB_SERVER_HOST')
+WEB_SERVER_PORT = int(os.getenv('WEB_SERVER_PORT'))
+WEBHOOK_PATH = os.getenv('WEBHOOK_PATH')
+OTHER_BOT_PATH = os.getenv('OTHER_BOT_PATH')
+PATH_WITHOUT_TOKEN = os.getenv('PATH_WITHOUT_TOKEN')
+FOR_OTHER_BOTS = f'{BASE_WEBHOOK_URL}/{PATH_WITHOUT_TOKEN}/'
